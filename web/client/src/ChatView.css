@@ -1,0 +1,10 @@
+.message-log-row {
+    border: 1px solid #1E70D4;
+    margin: 10px;
+    padding: 20px;
+    overflow-y: scroll; 
+}
+
+.message-send span{
+    cursor: pointer;
+}

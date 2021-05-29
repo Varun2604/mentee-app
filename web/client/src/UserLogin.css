@@ -1,0 +1,10 @@
+.user-login{
+    background: #DADADA;
+    color: black;
+    margin: 20px;
+    padding: 50px;
+}
+
+.user-login button {
+    border-radius: 30px;
+}

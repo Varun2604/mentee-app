@@ -4,7 +4,8 @@
   "description": "The UI for mentee",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node web/app/app.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/Varun2604/mentee-app/issues"
   },
-  "homepage": "https://github.com/Varun2604/mentee-app#readme"
+  "homepage": "https://github.com/Varun2604/mentee-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "create-react-app": "^4.0.3"
+  }
 }
